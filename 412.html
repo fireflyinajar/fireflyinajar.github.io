@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+</style>
+</head>
+<body style="background-color:black;">
+
+<img alt="" src="https://78.media.tumblr.com/afe54a8f70156cf7b7a019fa5fa32587/tumblr_p72eusUEBP1xpkpjko1_1280.png" 
+            style="position: center; height: 100%; size: cover;" align="middle" id="imgClickAndChange" onclick="changeImage()"  />
+
+</body>
+<script language="javascript">
+    function changeImage() {
+
+        if (document.getElementById("imgClickAndChange").src == "https://78.media.tumblr.com/afe54a8f70156cf7b7a019fa5fa32587/tumblr_p72eusUEBP1xpkpjko1_1280.png") 
+        {
+            document.getElementById("imgClickAndChange").src = "https://78.media.tumblr.com/a1037c0cf576c3430340810f85a0e923/tumblr_p72ev2uRGr1xpkpjko1_1280.png";
+        }
+        else 
+        {
+            document.getElementById("imgClickAndChange").src = "https://78.media.tumblr.com/afe54a8f70156cf7b7a019fa5fa32587/tumblr_p72eusUEBP1xpkpjko1_1280.png"
+        }
+    }
+</script>
+</html>
